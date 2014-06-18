@@ -1,8 +1,7 @@
-
 /* Author: Luigi Vincent AKA Javaliant
-Simple timer application (pomodoro style)
-Inspired by my friend Kyle AKA ScarySpriteNiceMonster
+Simple timer application (pomodoro style) - Inspired by my friend Kyle AKA ScarySpriteNiceMonster
 */ 
+
 var name = prompt("What is your name?");
 
 var theDate = new Date();
