@@ -1,8 +1,8 @@
+
 /* Author: Luigi Vincent AKA Javaliant
 Simple timer application (pomodoro style)
 Inspired by my friend Kyle AKA ScarySpriteNiceMonster
-*/
-
+*/ 
 var name = prompt("What is your name?");
 
 var theDate = new Date();
@@ -30,7 +30,8 @@ function print() {
     }
     if (minute === 0){ alert("Break over!"); }
     if (minute < -1){ console.log(Math.abs(minute) + " minutes left of break...");}
-    else if (minute === -1){ console.log(Math.abs(minute) + "minute left of break..."); }
+    else if (minute === -1){ console.log(Math.abs(minute) + " minute left of break..."); }
+    else if (minute === 1){ console.log(minute + " minute has passed"); }
     else console.log( minute + " minutes have passed...");
     // increments the minute variable by 5 each time the function is called
     minute ++;
