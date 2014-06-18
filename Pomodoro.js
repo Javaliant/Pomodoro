@@ -25,7 +25,7 @@ function print() {
     }
     if (minute == 25) {
         pomodoroCount++;
-        alert("Take 5 " + name + "!\nCurrrent pomodorCount is " + pomodoroCount + "."); 
+        alert("Take 5 " + name + "!\nCurrrent Pomodoro count is " + pomodoroCount + "."); 
         minute = -5;
     }
     if (minute === 0){ alert("Break over!"); }
