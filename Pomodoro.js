@@ -18,7 +18,7 @@ function timer(min){
 }
 
 function print() {
-    if (minute === 25 && pomodoroCount % 3 === 0){
+    if (minute === 25 && pomodoroCount >= 3 && pomodoroCount % 3 === 0){
         alert("Great job! " + name + ".\nEnjoy a well deserved 15 minute break.");
         minute = -15;
     }
