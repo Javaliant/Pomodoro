@@ -1,4 +1,4 @@
 Pomodoro
 ========
 
-A simple Pomodoro style timer for productivity
+A simple Pomodoro style timer written in pure Javascript.
