@@ -3,11 +3,13 @@ Simple timer application (pomodoro style) - Inspired by my friend Kyle AKA Scary
 */ 
 
 var name = prompt("What is your name?");
+var theHour = new Date().getHours();
 
-var theDate = new Date();
-var theHour = theDate.getHours();
-
-function greet(name){ return theHour < 12 ? "Good Morning, " : (theHour < 18 ? "Good Afternoon, ": "Good Evening, ") + name + "."; }
+function greet(name){
+    return theHour < 12 ? "Good Morning, " :
+        (theHour < 18 ? "Good Afternoon, ": 
+        "Good Evening, ") + name + ".";
+}
 
 console.log(greet(name) +"\nThis is a timer application simply leave the tab open before productivity.");
 
